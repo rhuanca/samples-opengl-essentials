@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{b09d508b-93e7-4595-a90d-1d56440847b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects">
+      <UniqueIdentifier>{786a5eb2-7a4c-453a-99b1-3a4e3cf0a021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{964b873d-cde7-4ac0-9a7b-e2526b6b1c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{70b42764-191c-454e-9700-97bbdc07f7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShaderPrograms">
+      <UniqueIdentifier>{2bd67125-40c9-4ac5-849b-597168650c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderPrograms">
+      <UniqueIdentifier>{c1f802c3-d77e-4747-b7a5-07f935055d52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMappingDemo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMappingEffect.cpp">
+      <Filter>Source Files\ShaderPrograms</Filter>
+    </ClCompile>
+    <ClCompile Include="FogEffect.cpp">
+      <Filter>Source Files\ShaderPrograms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RenderingGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMappingDemo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMappingEffect.h">
+      <Filter>Header Files\ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="FogEffect.h">
+      <Filter>Header Files\ShaderPrograms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Effects\NormalMappingDemo.vert">
+      <Filter>Content\Effects</Filter>
+    </None>
+    <None Include="Content\Effects\NormalMappingDemo.frag">
+      <Filter>Content\Effects</Filter>
+    </None>
+    <None Include="Content\Effects\FogDemo.frag">
+      <Filter>Content\Effects</Filter>
+    </None>
+    <None Include="Content\Effects\FogDemo.vert">
+      <Filter>Content\Effects</Filter>
+    </None>
+  </ItemGroup>
+</Project>

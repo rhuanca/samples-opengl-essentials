@@ -1,0 +1,41 @@
+#pragma once
+
+#include "Game.h"
+
+using namespace Library;
+
+namespace Library
+{
+	class GameTime;
+	class FirstPersonCamera;
+	class Grid;
+	class Skybox;
+}
+
+namespace Rendering
+{
+	class TransparencyMappingDemo;
+
+	class RenderingGame : public Game
+	{
+		RTTI_DECLARATIONS(RenderingGame, Game)
+
+	public:
+		RenderingGame(HINSTANCE instance, const std::wstring& windowTitle);
+
+	protected:
+		virtual void Initialize() override;
+		virtual void Draw(const GameTime& gameTime) override;
+		virtual void Shutdown() override;
+
+	private:
+		void OnKey(int key, int scancode, int action, int mods);
+
+		FirstPersonCamera* mCamera;
+		KeyboardHandler mKeyboardHandler;
+		Grid* mGrid;
+		Skybox* mSkybox;
+
+		TransparencyMappingDemo* mTransparencyMappingDemo;
+	};
+}
