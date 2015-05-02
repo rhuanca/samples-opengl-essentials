@@ -4,3 +4,17 @@
 /source/Lesson1.1/Makefile
 /source/Lesson1.1/cmake_install.cmake
 /source/Lesson1.1/lesson1.1
+
+/external/gl3w/CMakeCache.txt
+/external/gl3w/CMakeFiles/
+/external/gl3w/Makefile
+/external/gl3w/cmake_install.cmake
+/external/gl3w/libgl3w.a
+/external/glm/glm/CMakeCache.txt
+/external/glm/glm/CMakeFiles/
+/external/glm/glm/Makefile
+/external/glm/glm/cmake_install.cmake
+/external/glm/glm/glm_dummy
+/external/glm/glm/libglm.a
+/external/glm/glm/libglm_shared.so
+

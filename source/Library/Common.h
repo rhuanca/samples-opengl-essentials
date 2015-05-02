@@ -9,7 +9,7 @@
 // #include <memory>
 // #include "ServiceContainer.h"
 
-#if defined(OPENGL)
+// #if defined(OPENGL)
 #include "GL/gl3w.h"
 #include "GLFW/glfw3.h"
 #include "glm/glm.hpp"
@@ -21,7 +21,7 @@
 
 // #define GLFW_EXPOSE_NATIVE_WIN32
 // #define GLFW_EXPOSE_NATIVE_WGL
-#endif
+// #endif
 
 // #include "RTTI.h"
 
